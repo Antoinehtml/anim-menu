@@ -11,7 +11,7 @@ const Home = () => {
 			<Header />
 			<div className="main-container">
 				<h1>
-					Bisous <br /> Web <br /> Agency
+					Bisous. <br /> Web <br /> Agency
 				</h1>
 
 				<ContactButton />

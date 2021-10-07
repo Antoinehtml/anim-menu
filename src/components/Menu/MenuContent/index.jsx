@@ -81,7 +81,11 @@ const MenuContent = () => {
 					<ul className="internal-nav-links">
 						{internalLinks.map((link) => (
 							<li key={link.url}>
-								<a href={link.url} onMouseEnter={(event) => hoverelement(event)} onMouseLeave={(event) => leaveelement(event)}>{link.component}</a>
+								<a 
+                  href={link.url} 
+                  onMouseEnter={(event) => hoverelement(event)} 
+                  onMouseLeave={(event) => leaveelement(event)}
+                >{link.component}</a>
 								<img src={link.img} alt="" />
 							</li>
 						))}
@@ -89,7 +93,7 @@ const MenuContent = () => {
 					<ul className="external-nav-links">
 						{externalLinks.map((link) => (
 							<li key={link.url}>
-								<a href={link.url}>{link.component}</a>
+								<a href={link.url} target="_blank">{link.component}</a>
 							</li>
 						))}
 					</ul>
