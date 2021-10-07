@@ -93,7 +93,7 @@ const MenuContent = () => {
 					<ul className="external-nav-links">
 						{externalLinks.map((link) => (
 							<li key={link.url}>
-								<a href={link.url} target="_blank">{link.component}</a>
+								<a href={link.url}>{link.component}</a>
 							</li>
 						))}
 					</ul>

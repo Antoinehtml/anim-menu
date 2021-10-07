@@ -55,11 +55,19 @@ img.image-shown{
 	transform: translateY(-50%) translateX(0px);
 }
 
+.internal-nav-links{
+
+}
+
 .internal-nav-links a{
 	text-decoration: none;
 	color: #fff;
 	font-size: clamp(32px, 4vw, 52px);
 	line-height: 1.1em;
+	transform: translate(0);
+	transition-duration: 0.8s;
+	transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1.0);
+	
 	transition: transform 0.3s cubic-bezier(0.55, 0.55, 0.675, 0.19);
 }
 
